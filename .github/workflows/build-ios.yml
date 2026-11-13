@@ -17,7 +17,7 @@ jobs:
     - name: Set up Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: 'stable'
+        flutter-version: 'stable'\n    architecture: x64
 
     - name: Dependencies
       run: flutter pub get
