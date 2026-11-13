@@ -21,7 +21,7 @@ jobs:
 
       - name: Build iOS App (Unsigned)
         run: |
-          flutter build ios --release --config-only
+          flutter build ios --release --config-only --no-codesign
           xcodebuild \
             -workspace ios/Runner.xcworkspace \
             -scheme Runner \
