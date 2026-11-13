@@ -56,7 +56,7 @@ class _EventBottomSheetState extends State<EventBottomSheet> {
                   backgroundColor: Color(_colorValue).withValues(alpha: 0.2),
                   child: _iconCodePoint != null
                       // ignore: non_const_argument_for_const_parameter
-                      ? Icon(IconData(_iconCodePoint!, fontFamily: 'MaterialIcons'), color: Color(_colorValue))
+                      ? Icon(IconData(_iconCodePoint ?? 0x1F60A, fontFamily: null), color: Color(_colorValue))
                       : const Icon(Icons.add_photo_alternate_outlined),
                 ),
                 const SizedBox(height: 8),
