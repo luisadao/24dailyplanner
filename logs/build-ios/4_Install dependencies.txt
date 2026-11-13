@@ -1,0 +1,16 @@
+﻿2026-11-13T09:20:32.4626700Z ##[group]Run flutter pub get
+2026-11-13T09:20:32.4626970Z [36;1mflutter pub get[0m
+2026-11-13T09:20:32.4683810Z shell: /bin/bash -e {0}
+2026-11-13T09:20:32.4684150Z env:
+2026-11-13T09:20:32.4684440Z   FLUTTER_ROOT: /Users/runner/hostedtoolcache/flutter/stable-3.50.0-arm64/flutter
+2026-11-13T09:20:32.4684800Z   PUB_CACHE: /Users/runner/.pub-cache
+2026-11-13T09:20:32.4685010Z ##[endgroup]
+2026-11-13T09:20:37.2706350Z Resolving dependencies...
+2026-11-13T09:20:37.7161070Z Downloading packages...
+2026-11-13T09:20:38.9138260Z   cupertino_icons 1.0.9 (2.0.0 available)
+2026-11-13T09:20:38.9138650Z   material_color_utilities 0.13.0 (0.13.1 available)
+2026-11-13T09:20:38.9138880Z   test_api 0.7.14 (0.7.15 available)
+2026-11-13T09:20:38.9139060Z   vector_math 2.4.3 (2.4.4 available)
+2026-11-13T09:20:38.9139280Z Got dependencies!
+2026-11-13T09:20:38.9139540Z 4 packages have newer versions incompatible with dependency constraints.
+2026-11-13T09:20:38.9148380Z Try `flutter pub outdated` for more information.
